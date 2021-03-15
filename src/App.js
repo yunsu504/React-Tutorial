@@ -4,10 +4,10 @@ import './App.css';
 
 function App() {
 
-  let [글제목, 글제목변경] = useState('남자 코트 추천');
+  let [글제목, 글제목변경] = useState('남자 코트 추천1');
   let [글제목2, 글제목변경2] = useState('남자 코트 추천2');
-  let [글제목3, 글제목변경3] = useState(['남자 코트 추천1', '강남 치킨 맛집']);
-  let posts = '강남 초밥 맛집';
+  let [글제목3, 글제목변경3] = useState(['남자 코트 추천3', '강남 치킨 맛집']);
+  let posts = '강남 초밥  맛집';
   function 함수(){
     return 100
   }
